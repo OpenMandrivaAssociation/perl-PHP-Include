@@ -12,7 +12,6 @@ Requires:	perl >= 5.004
 BuildRequires:	perl-devel
 BuildRequires:	perl-Parse-RecDescent
 BuildArch:	noarch
-BuildRoot:	%{_tmppath}/%{name}-%{version}
 
 %description
 PHP::Include builds on the shoulders of Filter::Simple and Parse::RecDescent to
