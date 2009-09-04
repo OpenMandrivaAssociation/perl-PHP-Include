@@ -3,7 +3,7 @@
 Summary:	Include PHP files in Perl
 Name:		perl-%{module}
 Version:	0.2
-Release:	%mkrel 6
+Release:	%mkrel 7
 License:	GPL or Artistic
 Group:		Development/Perl
 URL:		http://search.cpan.org/dist/%{module}
