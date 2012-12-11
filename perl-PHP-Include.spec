@@ -58,3 +58,47 @@ rm -rf %{buildroot}
 %{_mandir}/*/*
 
 
+
+
+%changelog
+* Fri Sep 04 2009 Thierry Vignaud <tv@mandriva.org> 0.2-7mdv2010.0
++ Revision: 430528
+- rebuild
+
+* Thu Jul 31 2008 Thierry Vignaud <tv@mandriva.org> 0.2-6mdv2009.0
++ Revision: 258228
+- rebuild
+
+* Thu Jul 24 2008 Thierry Vignaud <tv@mandriva.org> 0.2-5mdv2009.0
++ Revision: 246288
+- rebuild
+
+* Sat Dec 22 2007 Guillaume Rousse <guillomovitch@mandriva.org> 0.2-3mdv2008.1
++ Revision: 137073
+- rebuild
+
+  + Olivier Blin <oblin@mandriva.com>
+    - restore BuildRoot
+
+  + Thierry Vignaud <tv@mandriva.org>
+    - kill re-definition of %%buildroot on Pixel's request
+
+
+* Fri Nov 17 2006 Oden Eriksson <oeriksson@mandriva.com> 0.2-2mdv2007.0
++ Revision: 85336
+- Import perl-PHP-Include
+
+* Fri Nov 17 2006 Oden Eriksson <oeriksson@mandrakesoft.com> 0.2-3
+- rebuild
+
+* Wed Sep 28 2005 Guillaume Rousse <guillomovitch@mandriva.org> 0.2-1mdk
+- New release 0.2
+- spec cleanup
+- make test in %%check
+
+* Tue Feb 22 2005 Oden Eriksson <oeriksson@mandrakesoft.com> 0.1-2mdk
+- fix deps
+
+* Tue Feb 22 2005 Oden Eriksson <oeriksson@mandrakesoft.com> 0.1-1mdk
+- initial Mandrakelinux package
+
