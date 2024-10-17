@@ -6,7 +6,7 @@ Version:	0.2
 Release:	9
 License:	GPL or Artistic
 Group:		Development/Perl
-URL:		http://search.cpan.org/dist/%{module}
+URL:		https://search.cpan.org/dist/%{module}
 Source0:	http://search.cpan.org/CPAN/authors/id/E/ES/ESUMMERS/%{module}-%{version}.tar.bz2
 Requires:	perl >= 5.004
 BuildRequires:	perl-devel
