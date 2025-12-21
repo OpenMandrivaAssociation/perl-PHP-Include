@@ -9,6 +9,7 @@ Group:		Development/Perl
 URL:		https://search.cpan.org/dist/%{module}
 Source0:	http://search.cpan.org/CPAN/authors/id/E/ES/ESUMMERS/%{module}-%{version}.tar.bz2
 Requires:	perl >= 5.004
+BuildRequires:	make
 BuildRequires:	perl-devel
 BuildRequires:	perl-Parse-RecDescent
 BuildArch:	noarch
